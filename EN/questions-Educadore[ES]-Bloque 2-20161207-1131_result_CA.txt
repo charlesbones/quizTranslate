@@ -1,0 +1,165 @@
+﻿QQQ 385  
+SSS Quina és la funció que s’executa tota l’estona?
+RRR Quina és la funció que s’executa tota l’estona?
+RRR Quina és la funció que s’executa tota l’estona?{
+*---
+CCC La funció setup().
+TTT La funció loop().
+CCC Totes les funcions.
+---*
+
+
+QQQ 387  
+SSS Quants estats té un senyal digital?
+RRR Quants estats té un senyal digital?
+RRR Quants estats té un senyal digital?{
+*---
+CCCM Tres estats: HIGH, LOW i MIDDLE.
+CCCM Depèn del component que estigui connectat.
+TTTM Només dos estats\: LOW i HIGH.
+---*
+
+
+QQQ 386  
+SSS Per què necessito una breadboard?
+RRR Per què necessito una breadboard?
+RRR Per què necessito una breadboard?{
+*---
+CCC50 Per crear circuits electrònics senzills sense haver de soldar.
+CCC50 Per crear prototips i circuits temporals.
+CCC Per soldar els meus circuits.
+---*
+
+
+QQQ 384  
+SSS Abans de descarregar un programa a la placa d’Arduino, he de comprovar...
+RRR Abans de descarregar un programa a la placa d’Arduino, he de comprovar...
+RRR Abans de descarregar un programa a la placa d’Arduino, he de comprovar alguna cosa?{
+*---
+CCC50 Sí, que estigui seleccionada la placa correcta.
+CCC50 Sí, que tingui seleccionats la placa i el port sèrie correctes, a més d’assegurar-me que la placa està connectada a l’ordinador.
+CCC No, no em caldrà comprovar res.
+---*
+
+
+QQQ 398  
+SSS El nombre 101 en binari...
+RRR El nombre 101 en binari...
+RRR El nombre 101 en binari...{
+*---
+CCC ...és igual al nombre 5 en codi binari.
+TTT ...és igual al nombre 5 en codi decimal.
+CCC ...és igual al nombre 6 en codi digital.
+---*
+
+
+QQQ 395  
+SSS El piezo és un component que...
+RRR El piezo és un component que...
+RRR El piezo és un component que...{
+*---
+CCC ...es pot utilitzar només com a sortida.
+CCC50 ...es pot utilitzar com a sortida o com a entrada.
+CCC50 ...no té polaritat.
+---*
+
+
+QQQ 397  
+SSS Internament, els ordinadors es comuniquen mitjançant...
+RRR Internament, els ordinadors es comuniquen mitjançant...
+RRR Internament, els ordinadors es comuniquen mitjançant...{
+*---
+TTTM ...el codi binari.
+CCCM ...el codi decimal.
+CCCM ...diferents tipus de codis.
+---*
+
+
+QQQ 393  
+SSS La funció delay(1000) implica una espera de...
+RRR La funció delay(1000) implica una espera de...
+RRR La funció delay(1000) implica una espera de...{
+*---
+CCC50 ...1000 mil·lisegons.
+CCC ...1000 segons.
+CCC50 ...1 segon.
+---*
+
+
+QQQ 392  
+SSS La funció digitalWrite()...
+RRR La funció digitalWrite()...
+RRR La funció digitalWrite()...{
+*---
+CCC ...té la mateixa funció que digitalRead().
+CCC ...s’utilitza només amb els pins digitals.
+TTTM <p>...assigna el valor de HIGH o LOW al pin seleccionat mitjançant la funció.<br></p>
+---*
+
+
+QQQ 388  
+SSS Els senyals digitals d’Arduino poden ser...
+RRR Els senyals digitals d’Arduino poden ser...
+RRR Els senyals digitals d’Arduino poden ser...{
+*---
+CCC50 ...una sortida.
+CCC50 ...una entrada.
+CCC ...només una entrada.
+---*
+
+
+QQQ 389  
+SSS Els LED...
+RRR Els LED...
+RRR Els LED...{
+*---
+CCC ...com tots els components electrònics, sempre tenen polaritat.
+CCC50 ...necessiten una resistència per regular el voltatge.
+CCC50 ...sempre es consideren sortides.
+---*
+
+
+QQQ 390  
+SSS Per calcular la resistència (R), el voltatge (V) i la intensitat (I) en un...
+RRR Per calcular la resistència (R), el voltatge (V) i la intensitat (I) en un...
+RRR Per calcular la resistència (R), el voltatge (V) i la intensitat (I) en un circuit, utilitzem la llei d’Ohm. Aquesta llei fa\:{
+*---
+CCC50 V \= I * R
+CCC50 I \= V / R
+CCC V \= I / R
+---*
+
+
+QQQ 396  
+SSS Si escric la línia de codi:  «tone (13, 400);»...
+RRR Si escric la línia de codi\:  «tone (13, 400);»...
+RRR Si escric la línia de codi\:  «tone (13, 400);»...{
+*---
+CCC50 El piezo hauria d’estar connectat al pin digital número 13.
+CCC50 El to de la freqüència serà de 400 Hz.
+CCC El piezo hauria d’estar connectat al pin analògic número 13.
+---*
+
+
+QQQ 391  
+SSS Si vols saber el valor d’un resistor, pots...
+RRR Si vols saber el valor d’un resistor, pots...
+RRR Si vols saber el valor d’un resistor, pots...{
+*---
+CCC50 ...mirar les bandes de colors del resistor.
+CCC ...connectar el resistor a la breadboard.
+CCC50 ...mesurar el seu valor amb el multímetre.
+---*
+
+
+QQQ 394  
+SSS Utilitzem la funció pinMode() per...
+RRR Utilitzem la funció pinMode() per...
+RRR Utilitzem la funció pinMode() per...{
+*---
+TTT ...assignar el pin seleccionat com a sortida o entrada.
+CCC ...canviar el valor d’un senyal digital.
+CCC ...només per assignar el pin seleccionat com a sortida.
+---*
+
+

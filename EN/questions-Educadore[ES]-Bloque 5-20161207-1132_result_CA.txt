@@ -1,0 +1,154 @@
+﻿QQQ 432  
+SSS Quina és la diferència entre les funcions  imu.begin() i imu.run()?
+RRR Quina és la diferència entre les funcions  imu.begin() i imu.run()?
+RRR Quina és la diferència entre les funcions  imu.begin() i imu.run()?{
+*---
+CCCM La funció imu.begin() inicia la lectura dels valors d’imu, mentre que la funció imu.run() inicia el dispositiu.
+CCCM La funció imu.run() no existeix.
+TTTM La funció imu.run() inicia l’actualització de les lectures d’imu; imu.begin() inicia el dispositiu.
+---*
+
+
+QQQ 438  
+SSS Quina és la diferència principal entre les propietats i els mètodes d’una...
+RRR Quina és la diferència principal entre les propietats i els mètodes d’una...
+RRR Quina és la diferència principal entre les propietats i els mètodes d’una classe?{
+*---
+TTTM Els mètodes descriuen les accions que un objecte pot dur a terme.
+CCCM Les propietats descriuen la principal informació o característiques d’una classe.
+CCCM Les propietats descriuen quines accions pot dur a terme un objecte.
+---*
+
+
+QQQ 439  
+SSS Quina és la funció principal del constructor d’una classe?
+RRR Quina és la funció principal del constructor d’una classe?
+RRR Quina és la funció principal del constructor d’una classe?{
+*---
+TTTM Crear l’objecte i inicialitzar-ne les propietats.
+CCCM Executar tots els mètodes de la classe al mateix temps.
+CCCM Crear una nova finestra que s’estigui executant tota l’estona.
+---*
+
+
+QQQ 430  
+SSS Quina és la principal diferència entre un giroscopi i un acceleròmetre?
+RRR Quina és la principal diferència entre un giroscopi i un acceleròmetre?
+RRR Quina és la principal diferència entre un giroscopi i un acceleròmetre?{
+*---
+TTTM L’un pot detectar la rotació, i l’altre, l’acceleració.
+CCCM No hi ha cap diferència entre aquests dos dispositius.
+CCCM Els dos dispositius poden mesurar la rotació, però només un pot mesurar l’acceleració.
+---*
+
+
+QQQ 436  
+SSS Quan és útil utilitzar la funció ble.setName()?
+RRR Quan és útil utilitzar la funció ble.setName()?
+RRR Quan és útil utilitzar la funció ble.setName()?{
+*---
+TTTM Quan vols saber quin és el teu dispositiu.
+CCCM Quan vols finalitzar la connexió BLE.
+CCCM Quan vols inicialitzar la connexió BLE.
+---*
+
+
+QQQ 435  
+SSS En quina posició queden el primer i el segon rectangle?:  ...
+RRR En quina posició queden el primer i el segon rectangle?\:  ...
+RRR En quina posició queden el primer i el segon rectangle?\:  translate(50,50); rect(0,0,10,10); translate(10,10); rect(0,0,10,10);{
+*---
+CCCM El primer rectangle, en la posició (50,50); i el segon, en la posició (10,10).
+TTTM El primer rectangle, en la posició (50,50); i el segon, en la posició (60,60).
+CCCM El primer rectangle, en la posició (10,10); i el segon, en la posició (60,60).
+---*
+
+
+QQQ 434  
+SSS Què és el BLE?
+RRR Què és el BLE?
+RRR Què és el BLE?{
+*---
+TTTM La nova generació de Bluetooth.
+TTTM Un Bluetooth de baixa energia.
+CCCM Un Bluetooth que requereix molta energia però que funciona millor.
+---*
+
+
+QQQ 437  
+SSS Què és una classe?
+RRR Què és una classe?
+RRR Què és una classe?{
+*---
+CCCM Una classe és una funció que defineix el codi principal d’un programa.
+TTTM Una classe és un grup de mètodes i propietats que defineixen un objecte.
+CCCM Una classe és un conjunt de funcions que estan disponibles quan la biblioteca està inclosa.
+---*
+
+
+QQQ 442  
+SSS Què fa la funció popMatrix()?
+RRR Què fa la funció popMatrix()?
+RRR Què fa la funció popMatrix()?{
+*---
+TTTM Reinicia la matriu i l’envia a la posició (0,0).
+CCCM Desa l’estat de la matriu.
+CCCM Mou la matriu a la posició (10,10).
+---*
+
+
+QQQ 433  
+SSS Què fan les funcions getGyroX() i getGyroY()?
+RRR Què fan les funcions getGyroX() i getGyroY()?
+RRR Què fan les funcions getGyroX() i getGyroY()?{
+*---
+TTTM Accedeixen als valors dels eixos «x» i «y» del giroscopi.
+CCCM Escriuen els valors dels eixos «x» i «y» en el giroscopi.
+CCCM Accedeixen als valors dels eixos «x» i «y» de l’acceleròmetre.
+---*
+
+
+QQQ 429  
+SSS Què significa la sigla «IMU»?
+RRR Què significa la sigla «IMU»?
+RRR Què significa la sigla «IMU»?{
+*---
+CCCM «International Mathematical Union».
+TTTM «inertial measurement unit», i mesuren el moviment en un espai tridimensional.
+CCCM «inertial measurement unit», i mesuren el moviment en un espai bidimensional.
+---*
+
+
+QQQ 431  
+SSS La funció imu.getPitch() retorna...
+RRR La funció imu.getPitch() retorna...
+RRR La funció imu.getPitch() retorna...{
+*---
+TTTM ...l’angle d’inclinació del dispositiu.
+CCCM ...el valor del giroscopi a l’eix «y».
+CCCM ...els valors de l’acceleròmetre i el giroscopi a l’eix «x».
+---*
+
+
+QQQ 440  
+SSS La funció translate(x,y)...
+RRR La funció translate(x,y)...
+RRR La funció translate(x,y)...{
+*---
+TTTM ...trasllada l’objecte principal a una altra coordenada «y».
+TTTM ...trasllada l’objecte principal a una altra coordenada «x».
+CCCM ...trasllada l’objecte principal a una altra coordenada «z».
+---*
+
+
+QQQ 441  
+SSS Per definir l’angle de rotació, l’ordre rotate() utilitza...
+RRR Per definir l’angle de rotació, l’ordre rotate() utilitza...
+RRR Per definir l’angle de rotació, l’ordre rotate() utilitza...{
+*---
+TTTM ...radiants.
+CCCM ...graus.
+CCCM ...píxels.
+---*
+
+

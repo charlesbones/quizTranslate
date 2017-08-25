@@ -1,0 +1,165 @@
+﻿QQQ 403  
+SSS Què és el PWM?
+RRR Què és el PWM?
+RRR Què és el PWM?{
+*---
+CCC50 És un senyal. Les sigles provenen del terme «pulse with modulation».
+CCC Un senyal analògic.
+CCC50 És un senyal que es pot utilitzar per controlar la intensitat de llum d’un LED.
+---*
+
+
+QQQ 409  
+SSS Amb la funció serial.begin() puc configurar...
+RRR Amb la funció serial.begin() puc configurar...
+RRR Amb la funció serial.begin() puc configurar...{
+*---
+CCC50 ...la velocitat de la comunicació sèrie.
+CCC ...els pins de comunicació sèrie.
+CCC50 ...la velocitat de transmissió o «baud rate».
+---*
+
+
+QQQ 407  
+SSS La velocitat de transmissió («baud rate») és...
+RRR La velocitat de transmissió («baud rate») és...
+RRR La velocitat de transmissió («baud rate») és...{
+*---
+CCC50 ...bits/segon.
+CCC ...bytes/segon.
+CCC50 ...la quantitat de bits per segon.
+---*
+
+
+QQQ 400  
+SSS El convertidor analògic-digital (CAD) és un xip que converteix...
+RRR El convertidor analògic-digital (CAD) és un xip que converteix...
+RRR El convertidor analògic-digital (CAD) és un xip que converteix...{
+*---
+CCC50 ...un senyal analògic en un senyal digital.
+CCC ...un senyal digital en un senyal analògic.
+CCC50 ...el valor d’un senyal analògic, com ara el voltatge, en un nombre digital específic.
+---*
+
+
+QQQ 406  
+SSS La comunicació sèrie...
+RRR La comunicació sèrie...
+RRR La comunicació sèrie...{
+*---
+CCC50 ...permet que les plaques es comuniquin amb l’ordinador.
+CCC50 ...permet que les plaques es comuniquin entre elles.
+CCC ...únicament permet que les plaques es comuniquin amb l’ordinador.
+---*
+
+
+QQQ 413  
+SSS La funció serial.list() en Processing...
+RRR La funció serial.list() en Processing...
+RRR La funció serial.list() en Processing...{
+*---
+CCC ...et mostra el port sèrie que vols connectar amb l’IDE d’Arduino.
+TTT ...et mostra tots els ports sèrie disponibles al teu ordinador.
+CCC ...únicament et mostra el port que utilitza la placa Arduino.
+---*
+
+
+QQQ 411  
+SSS La funció serial.read() en Processing...
+RRR La funció serial.read() en Processing...
+RRR La funció serial.read() en Processing...{
+*---
+CCCM ...retorna l’últim byte de la cua de dades transmeses en sèrie.
+TTTM ...retorna el primer byte de la cua de dades transmeses en sèrie.
+CCCM ...retorna tots els bytes de la cua de dades transmeses en sèrie.
+---*
+
+
+QQQ 405  
+SSS La funció: map(value, fromLow, fromHigh, toLow, toHigh)...
+RRR La funció\: map(value, fromLow, fromHigh, toLow, toHigh)...
+RRR La funció\: map(value, fromLow, fromHigh, toLow, toHigh)...{
+*---
+CCC ...té un paràmetre anomenat «toLow» que és el valor més gran del rang en què es maparà el nombre.
+CCC50 ...remapa un nombre d’un rang a un altre.
+CCC50 ...té un paràmetre anomenat «value» que és el valor que vols mapar.
+---*
+
+
+QQQ 399  
+SSS Pel que sabem fins ara, el món físic és...
+RRR Pel que sabem fins ara, el món físic és...
+RRR Pel que sabem fins ara, el món físic és...{
+*---
+TTTM ...analògic.
+CCCM ...digital.
+CCCM ...analògic i digital.
+---*
+
+
+QQQ 410  
+SSS Respecte a la funció serial.available()...
+RRR Respecte a la funció serial.available()...
+RRR Respecte a la funció serial.available()...{
+*---
+CCC ...si la funció és igual a 0, això significa que hi ha bytes al port sèrie.
+CCC50 ...aquesta funció ens diu quants bytes arriben mitjançant el port sèrie.
+CCC50 ...si la funció és igual a 0, això significa que no hi ha bytes al port sèrie.
+---*
+
+
+QQQ 412  
+SSS Si volem utilitzar la comunicació sèrie en Procesing...
+RRR Si volem utilitzar la comunicació sèrie en Procesing...
+RRR Si volem utilitzar la comunicació sèrie en Procesing...{
+*---
+TTTM ...haurem d’importar la biblioteca processing.serial*
+CCCM ...haurem de tancar el programa Arduino i únicament executar el programa Processing.
+CCCM ...no ens cal importar cap biblioteca.
+---*
+
+
+QQQ 404  
+SSS Si vull canviar la intensitat d’un LED, hauria...
+RRR Si vull canviar la intensitat d’un LED, hauria...
+RRR Si vull canviar la intensitat d’un LED, hauria...{
+*---
+TTT ...d’utilitzar un pin PWM.
+CCC ...de connectar-lo a un pin digital o analògic.
+CCC ...de connectar-lo a un pin analògic.
+---*
+
+
+QQQ 408  
+SSS Si vull utilitzar la comunicació sèrie amb la placa CTC, necessito...
+RRR Si vull utilitzar la comunicació sèrie amb la placa CTC, necessito...
+RRR Si vull utilitzar la comunicació sèrie amb la placa CTC, necessito...{
+*---
+CCC50 ...el pin digital 1 i el pin digital 0.
+CCC50 ...els pins RX i TX.
+CCC ...el pin analògic 1 i el pin analògic 0.
+---*
+
+
+QQQ 402  
+SSS Si utilitzo la funció analogRead()...
+RRR Si utilitzo la funció analogRead()...
+RRR Si utilitzo la funció analogRead()...{
+*---
+CCC ...abans hauria d’utilitzar la funció pinMode() per configurar el pin analògic corresponent com a entrada.
+CCC50 ...obtindré un valor situat entre el 0 i el 1023.
+CCC50 ...llegiré el valor d’un pin analògic en concret.
+---*
+
+
+QQQ 401  
+SSS Un sensor analògic pot ser...
+RRR Un sensor analògic pot ser...
+RRR Un sensor analògic pot ser...{
+*---
+CCC50 ...un sensor de llum.
+CCC50 ...un potenciòmetre.
+CCC ...un LED.
+---*
+
+

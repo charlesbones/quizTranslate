@@ -1,0 +1,165 @@
+﻿QQQ 375  
+SSS La funció background() de Processing...
+RRR La funció background() de Processing...
+RRR La funció background() de Processing...{
+*---
+CCC ...s’utilitza per canviar el color de farciment de les figures dibuixades.
+CCC50 ...pot tenir tres paràmetres.
+CCC50 ...s’utilitza per fixar el color del fons.
+---*
+
+
+QQQ 380  
+SSS La funció createFont() de Processing...
+RRR La funció createFont() de Processing...
+RRR La funció createFont() de Processing...{
+*---
+TTT ...utilitza una font del teu ordinador i la importa a Processing.
+CCC ...utilitza una font prèviament seleccionada per escriure el text.
+CCC ...crea un compte en una coordenada específica.
+---*
+
+
+QQQ 370  
+SSS La funció draw() en Processing...
+RRR La funció draw() en Processing...
+RRR La funció draw() en Processing...{
+*---
+CCCM ...actua igual que la funció setup().
+CCCM ...es repeteix una sola vegada.
+TTTM ...es repeteix constantment.
+---*
+
+
+QQQ 378  
+SSS La funció ellipse() de Processing...
+RRR La funció ellipse() de Processing...
+SSS La funció ellipse() de Processing...{
+*---
+CCCM ...s’utilitza per dibuixar una el·lipse però no un cercle.
+CCCM ...s’utilitza per dibuixar un cercle si s’estableix el paràmetre del radi.
+TTTM ...s’utilitza per dibuixar un cercle quan els paràmetres width (amplada) i height (alçada) tenen el mateix valor.
+---*
+
+
+QQQ 383  
+SSS La funció size() de Processing...
+RRR La funció size() de Processing...
+RRR La funció size() de Processing...{
+*---
+CCCM ...té paràmetres el valor dels quals és en mm.
+TTTM ...té paràmetres el valor dels quals és en píxels.
+CCCM ...no té paràmetres.
+---*
+
+
+QQQ 377  
+SSS La línia de codi: «println("Hello");»...
+RRR La línia de codi\: «println("Hello");»...
+RRR La línia de codi\: «println("Hello");»...{
+*---
+TTTM ...mostra la paraula «Hello» en la consola de Processing.
+CCCM ...fa el mateix que la funció «print("Hello");»
+CCCM ...està mal escrita.
+---*
+
+
+QQQ 381  
+SSS La línia de codi: «h = hour();»...
+RRR La línia de codi: «h \= hour();»...
+RRR La línia de codi: «h \= hour();»...{
+*---
+TTTM ...desa el valor actual de l’hora en la variable «h».
+CCCM ...desa el valor de la variable «h» en la funció hour().
+CCCM ...mostra el valor actual de l’hora a la pantalla.
+---*
+
+
+QQQ 374  
+SSS La línia de codi:  «if(a &gt; 1)»...
+RRR La línia de codi\:  «if(a &gt; 1)»...
+RRR La línia de codi\:  «if(a &gt; 1)»...{
+*---
+CCC50 ...s’utilitza per avaluar l’estat de la variable «a».
+CCC ...s’utilitza per repetir diverses vegades una línia de codi específica.
+CCC50 ...és una estructura condicional.
+---*
+
+
+QQQ 371  
+SSS Les variables...
+RRR Les variables...
+RRR Les variables...{
+*---
+CCC50 ...si són booleanes, únicament disposen d’1 bit amb dos possibles estats: 1 o 0.
+CCC50 ...són capaces de desar un nombre decimal.
+CCC ...només són capaces de desar nombres enters.
+---*
+
+
+QQQ 369  
+SSS Els comentaris d’un programa...
+RRR Els comentaris d’un programa...
+RRR Els comentaris d’un programa...{
+*---
+CCC50 ...s’escriuen d’aquesta manera\: //comentari.
+CCC50 ...s’escriuen d’aquesta manera\: /*comentari*/.
+CCC ...modifiquen el comportament del programa.
+---*
+
+
+QQQ 376  
+SSS Els paràmetres d’una funció...
+RRR Els paràmetres d’una funció...
+RRR Els paràmetres d’una funció...{
+*---
+CCCM ...sempre estan dividits mitjançant un punt i coma.
+TTTM ...sempre estan dividits mitjançant una coma.
+CCCM ...sempre estan dividits mitjançant un espai.
+---*
+
+
+QQQ 379  
+SSS Si analitzem la línia de codi: «for(int i = 0; i &lt; 40; i = i +1)», podem...
+RRR Si analitzem la línia de codi\: «for(int i \= 0; i &lt; 40; i \= i +1)», podem...
+RRR Si analitzem la línia de codi\: «for(int i \= 0; i &lt; 40; i \= i +1)», podem dir que...
+*---
+CCC50 ...després de la primera iteració, la variable «i» és igual a 1.
+CCC ...aquest bucle s’executarà per sempre.
+CCC50 ...aquest bucle s’executarà mentre la variable «i» sigui menor que 40.
+---*
+
+
+QQQ 373  
+SSS Si dibuixem algunes línies en la funció setup() i posem el color del...
+RRR Si dibuixem algunes línies en la funció setup() i posem el color del...
+RRR Si dibuixem algunes línies en la funció setup() i posem el color del fons al final d’aquesta funció, obtindrem...{
+*---
+TTT ...que totes les línies s’han esborrat, ja que el programa s’executa de dalt cap a baix.
+CCC ...que totes les línies s’han esborrat. Ara bé, tornarien a aparèixer si tornéssim a executar la funció setup().
+CCC ...que el fons apareix dins de les línies i les fa visibles.
+---*
+
+
+QQQ 382  
+SSS Si cridem les funcions noStroke() i noFill() en el nostre codi...
+RRR Si cridem les funcions noStroke() i noFill() en el nostre codi...
+RRR Si cridem les funcions noStroke() i noFill() en el nostre codi...{
+*---
+CCCM ...podrem veure l’objecte en concret.
+TTTM ...no es mostrarà res a la pantalla.
+CCCM ...només podrem veure el contorn del nostre objecte.
+---*
+
+
+QQQ 372  
+SSS Un array és...
+RRR Un array és...
+RRR Un array és...{
+*---
+CCC50 ...una variable capaç de desar informació en diferents cel·les de memòria.
+CCC50 ...un grup de valors del mateix tipus.
+CCC ...una constant.
+---*
+
+

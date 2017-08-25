@@ -1,0 +1,165 @@
+﻿QQQ 417  
+SSS Com funciona un motor digital?
+RRR Com funciona un motor digital?
+RRR Com funciona un motor digital?{
+*---
+CCCM Funciona de la mateixa manera que tots els altres servomotors.
+CCCM Funciona de la mateixa manera que un motor de continu.
+TTTM Funciona mitjançant la traducció d’ordres simples a moviments del motor.
+---*
+
+
+QQQ 422  
+SSS Quin és l’angle màxim d’un servomotor estàndard?
+RRR Quin és l’angle màxim d’un servomotor estàndard?
+RRR Quin és l’angle màxim d’un servomotor estàndard?{
+*---
+CCCM 0-360.
+CCCM 0-90.
+CCCM 0-180.
+---*
+
+
+QQQ 419  
+SSS Quina és la diferència principal entre un servomotor i un motor pas a pas?
+RRR Quina és la diferència principal entre un servomotor i un motor pas a pas?
+RRR Quina és la diferència principal entre un servomotor i un motor pas a pas («stepper motor»)?{
+*---
+CCC50 El motor pas a pas és molt més precís.
+CCC50 El servomotor és més ràpid.
+CCC El motor pas a pas és més ràpid.
+---*
+
+
+QQQ 415  
+SSS Quines són les parts electròniques més importants d’un robot?
+RRR Quines són les parts electròniques més importants d’un robot?
+RRR Quines són les parts electròniques més importants d’un robot?{
+*---
+CCCM Els sensors, les rodes i els actuadors.
+TTTM Els sensors, els actuadors i la placa principal.
+CCCM Les rodes, els actuadors i la placa principal.
+---*
+
+
+QQQ 414  
+SSS Què és un robot?
+RRR Què és un robot?
+RRR Què és un robot?{
+*---
+CCC50 Una màquina intel·ligent que és capaç d’interactuar amb el seu entorn.
+CCC Una màquina amb actuadors i sense intel·ligència.
+CCC50 Una màquina amb sensors, actuadors i intel·ligència.
+---*
+
+
+QQQ 418  
+SSS Què podem controlar amb un motor de continu?
+RRR Què podem controlar amb un motor de continu?
+RRR Què podem controlar amb un motor de continu?{
+*---
+CCC50 La direcció
+CCC La posició
+CCC50 La velocitat.
+---*
+
+
+QQQ 428  
+SSS El sensor de Knock...
+RRR El sensor de Knock...
+RRR El sensor de Knock...{
+*---
+CCC50 ...pot ser un actuador o un sensor.
+CCC50 ...té un piezo a l’interior.
+CCC ...és només un sensor.
+---*
+
+
+QQQ 426  
+SSS En el sensor IR Array...
+RRR En el sensor IR Array...
+RRR En el sensor IR Array...{
+*---
+CCC50 ...hi ha 3 sensors infraroigs.
+CCC50 ...cada sensor té un emissor i un receptor.
+CCC ...hi ha 3 sensors d’ultrasò.
+---*
+
+
+QQQ 420  
+SSS Aquesta línia de codi: «servo.write(76);» implica...
+RRR Aquesta línia de codi\: «servo.write(76);» implica...
+RRR Aquesta línia de codi\: «servo.write(76);» implica...{
+*---
+CCC50 ...que el meu servomotor estàndard canviarà a la posició de 76 graus.
+CCC ...que el meu servomotor continu canviarà a la posició de 76 graus.
+CCC50 ...que el meu servomotor continu canviarà la velocitat per anar a poc a poc en direcció de contrarellotge.
+---*
+
+
+QQQ 424  
+SSS La funció test(variable)...
+RRR La funció test(variable)...
+RRR La funció test(variable)...{
+*---
+CCCM ...imprimeix el valor de la variable sense utilitzar el port de comunicació sèrie.
+TTTM ...imprimeix el valor de la variable utilitzant el port de comunicació sèrie.
+CCCM ...fa un test d’un sensor en concret.
+---*
+
+
+QQQ 416  
+SSS Els motors són...
+RRR Els motors són...
+RRR Els motors són...{
+*---
+CCC50 ...actuadors.
+CCC ...sensors.
+CCC50 ...dispositius que poden donar al robot la capacitat de moure’s.
+---*
+
+
+QQQ 423  
+SSS Si executo aquesta funció: «wheels (6,9);», he de...
+RRR Si executo aquesta funció\: «wheels (6,9);», he de...
+RRR Si executo aquesta funció\: «wheels (6,9);», he de...{
+*---
+TTT ...tenir connectats dos servos continus als pins digitals 6 i 9.
+CCC ...haver configurat, prèviament, els pins 6 i 9 com a entrades.
+CCC ...tenir connectats dos servos continus als pins analògics 6 i 9.
+---*
+
+
+QQQ 421  
+SSS Si utilitzo dos servomotors, no tindré suficient corrent.
+RRR Si utilitzo dos servomotors, no tindré suficient corrent.
+RRR Si utilitzo dos servomotors, no tindré suficient corrent.{
+*---
+CCC Per aquest motiu, la meva única solució és utilitzar una bateria externa.
+CCC50 Una de les opcions que tinc és utilitzar una bateria externa.
+CCC50 Tenim diferents maneres de solucionar aquest problema.
+---*
+
+
+QQQ 427  
+SSS Si utilitzo la funció «IRArray(A1,A2,A3)»...
+RRR Si utilitzo la funció «IRArray(A1,A2,A3)»...
+RRR Si utilitzo la funció «IRArray(A1,A2,A3)»...{
+*---
+CCC ...utilitzaré un array de diferents sensors.
+CCC50 ...utilitzaré el sensor IR Array.
+CCC50 ...necessitaré connectar el meu sensor IR Array als pins analògics A1, A2 i A3.
+---*
+
+
+QQQ 425  
+SSS Un sensor capacitiu...
+RRR Un sensor capacitiu...
+RRR Un sensor capacitiu...{
+*---
+CCC50 ...genera un camp magnètic.
+CCC ...genera un camp elèctric.
+CCC50 ...és un sensor que pot ser creat amb un tros de paper d’alumini.
+---*
+
+
